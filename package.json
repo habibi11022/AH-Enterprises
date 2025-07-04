@@ -1,12 +1,17 @@
 {
-  "name": "project",
+  "name": "ah-enterprises-website",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "AH Enterprises - Medical, Surgical & General Supplies Website",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": ["medical", "surgical", "supplies", "healthcare", "business"],
+  "author": "AH Enterprises",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
