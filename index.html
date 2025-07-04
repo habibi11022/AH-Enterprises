@@ -3,11 +3,434 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AH Enterprises</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+    <title>AH Enterprises - Medical, Surgical & General Supplies</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome to AH Enterprises</h1>
-    <p>Your trusted supplier of surgical, medical, and general items.</p>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>AH Enterprises</h1>
+                <span class="tagline">Quality Medical & General Supplies</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Your Trusted Partner in Medical & General Supplies</h1>
+            <p class="hero-subtitle">Providing high-quality surgical instruments, medical equipment, and general supplies to healthcare professionals and businesses across the region.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Products</a>
+                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Products Available</p>
+            </div>
+            <div class="stat">
+                <h3>8</h3>
+                <p>Product Categories</p>
+            </div>
+            <div class="stat">
+                <h3>24/7</h3>
+                <p>Customer Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Product Categories</h2>
+                <p>Comprehensive range of medical, surgical, and general supplies</p>
+            </div>
+            
+            <div class="product-categories">
+                <!-- Medical Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Medical Products</h3>
+                    <p>Digital thermometers, pulse oximeters, blood pressure monitors, and essential medical equipment</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>Advanced Digital Flexible Thermometer</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Omron MC‑246 Digital Thermometer</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Pulse Oximeter OLED Display</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Blood Pressure Monitor Cuff</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Medical Stethoscope Black</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Surgical Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Surgical Products</h3>
+                    <p>Professional surgical instruments including scissors, forceps, scalpels, and specialized tools</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>Stainless Steel Iris Scissors</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Surgical Dressing Scissors</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Mayo Scissors Curved</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Forceps Straight Locking</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Scalpel Handle No.3</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- General Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-flashlight"></i>
+                    </div>
+                    <h3>General Products</h3>
+                    <p>LED torches, extension cables, and general utility items for various applications</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>Rechargeable Torch Light</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Solar LED Flashlight COB</span>
+                        </div>
+                        <div class="product-item">
+                            <span>USB Extension Cable with Switch</span>
+                        </div>
+                        <div class="product-item">
+                            <span>DP‑9034 LED Torch Long Range</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Extension Board 3-Pin Triple Socket</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Stationery Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <h3>Stationery Products</h3>
+                    <p>Quality pens, notebooks, and office supplies for professional and educational use</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>Mercury Focus Ballpoint Pens (10)</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Piano Pro Pens (10-pack)</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Aesthetic Spiral Notebook A4</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Gel Pens Premium Pack</span>
+                        </div>
+                        <div class="product-item">
+                            <span>3-Subject Spiral Notebook A4</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Cleaning Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Cleaning Products</h3>
+                    <p>Disinfectant sprays, microfiber mops, and cleaning supplies for hygiene maintenance</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>Lysol Disinfectant Spray 538g</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Hemani Antibacterial Spray</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Microfiber Flat Floor Mop</span>
+                        </div>
+                        <div class="product-item">
+                            <span>WBM 360° Microfiber Mop</span>
+                        </div>
+                        <div class="product-item">
+                            <span>TIMIVO Adjustable Mop</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Engineering Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Engineering Products</h3>
+                    <p>Adjustable wrenches, spanners, and precision tools for engineering and maintenance work</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>10″ Adjustable Wrench China Pride</span>
+                        </div>
+                        <div class="product-item">
+                            <span>6-10″ Chrome Spanner Wrench</span>
+                        </div>
+                        <div class="product-item">
+                            <span>8″ Black/Yellow Wrench</span>
+                        </div>
+                        <div class="product-item">
+                            <span>14″ Adjustable Pipe Wrench</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Adjustable Wrench Set 3 pcs</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Plumbing Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-pipe"></i>
+                    </div>
+                    <h3>Plumbing Products</h3>
+                    <p>PVC fittings, connectors, pipes, and plumbing accessories for water systems</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>JAERBEE 15-pcs 90° PVC Elbow</span>
+                        </div>
+                        <div class="product-item">
+                            <span>PVC 3/4/5-Way DN Connectors</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Transparent PVC Garden Pipe ¾″</span>
+                        </div>
+                        <div class="product-item">
+                            <span>6-Way PVC Pipe Connector (20mm)</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Flexible PVC Water Pipe 45ft</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+
+                <!-- Electronics Products -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Electronics Products</h3>
+                    <p>Electronic components, cables, and accessories for various technical applications</p>
+                    <div class="product-list">
+                        <div class="product-item">
+                            <span>USB 3.0 Extension Cables</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Extension Cables with Switch</span>
+                        </div>
+                        <div class="product-item">
+                            <span>Copper Extension Wire</span>
+                        </div>
+                        <div class="product-item">
+                            <span>2-Pin Male-Female Cables</span>
+                        </div>
+                        <div class="product-item">
+                            <span>3-Pin Extension Boards</span>
+                        </div>
+                        <div class="show-more">+5 more products</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About AH Enterprises</h2>
+                    <p>With years of experience in the medical and general supplies industry, AH Enterprises has established itself as a trusted partner for healthcare professionals, businesses, and individuals seeking quality products at competitive prices.</p>
+                    <p>We specialize in providing a comprehensive range of medical equipment, surgical instruments, cleaning supplies, stationery, engineering tools, and plumbing accessories. Our commitment to quality and customer satisfaction has made us a preferred supplier in the region.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality Assured Products</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Fast & Reliable Delivery</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Competitive Pricing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Medical supplies warehouse">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to place an order or have questions about our products?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+92 XXX XXXXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@ahenterprises.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Your Business Address<br>City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Product Category</option>
+                                <option value="medical">Medical Products</option>
+                                <option value="surgical">Surgical Products</option>
+                                <option value="general">General Products</option>
+                                <option value="stationery">Stationery Products</option>
+                                <option value="cleaning">Cleaning Products</option>
+                                <option value="engineering">Engineering Products</option>
+                                <option value="plumbing">Plumbing Products</option>
+                                <option value="electronics">Electronics Products</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message or Product Requirements" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AH Enterprises</h3>
+                    <p>Your trusted supplier of medical, surgical, and general items. Quality products, competitive prices, reliable service.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#products">Medical Products</a></li>
+                        <li><a href="#products">Surgical Products</a></li>
+                        <li><a href="#products">General Products</a></li>
+                        <li><a href="#products">Cleaning Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +92 XXX XXXXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@ahenterprises.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Your Business Address</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AH Enterprises. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
